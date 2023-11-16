@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design this layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: rgb(55, 137, 139);
+            position: sticky;
+            top: 0;
+            width: 1235px;
+
+        }
+        ul{
+            display: inline;
+            display: flex;
+
+        }
+        ul li{
+            display: flex;
+            padding: 22px;
+            font-size: 22px;
+            color: black;
+            
+        }
+        .container{
+           background-color: rgb(214, 122, 0);
+           margin: 20px;
+           width: 95%;
+           height: 450px;
+           border: 2px solid black;
+        }
+        .box{
+            
+            
+           margin: 20px;
+           width: 386px;
+           height: 300px;
+           border: 2px solid black;
+           float: left;
+           padding: 10px;
+           
+           margin: 70px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           
+
+        }
+        .box1{
+            background-color: blue;
+        }
+        .box2{
+            background-color: rgb(75, 75, 103);
+        }
+        .mid{
+            background-color: rgb(2, 2, 2);
+           margin: 60px;
+           padding: 50px;
+           width: 60%;
+           height: 120px;
+           border-radius: 80px;
+           border: 2px solid black;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           color: azure;
+           font-size: 30px;
+        }
+        footer{
+            background-color: rgb(223, 44, 44);
+           margin: 22pxpx;
+           height: 100px;
+           
+
+        }
+        img{
+            position: fixed;
+            top: 430px;
+            right: -50px;
+            bottom: 100px;
+            height: 100px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="/">Home </a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+        </div>
+
+        <div class="mid">This website is built by harsh subhedar !</div>
+         
+        <footer></footer>
+        <img src="imageex-5-removebg-preview.png"></img>
+    </div>
+    
+</body>
+</html>
